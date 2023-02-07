@@ -1,0 +1,10 @@
+composer global require laravel/laravel
+laravel new projectName
+composer create-project laravel/laravel projName
+
+
+php artisan serve -> create a server
+php artisan make:controller ControllerName
+php artisan make:model ModelName
+
+php artisan make:model ModelName -mcr ----> creates model, controller and migration files
